@@ -3,7 +3,7 @@ from os import environ
 from .commands import create_users, create_database
 from .extensions import db, guard
 from .models import User
-
+from .routes import api
 
 def create_app():
     app = Flask(__name__)
